@@ -13,8 +13,8 @@ L'objectif est de prédire la variable `churn`.
 
 Cette variable vaut :
 
-- `1` si le client quitte l'entreprise 
-- `0` si le client reste.
+ `1` si le client quitte l'entreprise 
+ `0` si le client reste.
 
 À partir des caractéristiques des clients le programme construit un score de risque appelé `score_churn`.
 
@@ -35,14 +35,14 @@ La base simulée contient plusieurs variables :
 
 Le projet suit plusieurs étapes
 
-1. création d'une base client simulée 
-2. statistiques descriptives 
-3. analyse du churn selon le type de contrat 
-4. comparaison des moyennes selon le churn 
-5. estimation d'une régression logistique 
-6. création d'un score de risque 
-7. classement des clients en trois groupes : risque faible, moyen ou élevé 
-8. export des résultats
+création d'une base client simulée 
+statistiques descriptives 
+analyse du churn selon le type de contrat 
+comparaison des moyennes selon le churn 
+estimation d'une régression logistique 
+création d'un score de risque 
+classement des clients en trois groupes : risque faible, moyen ou élevé 
+export des résultats
 
 ## Modèle utilisé
 
