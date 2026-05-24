@@ -1,8 +1,4 @@
-/* Projet SAS : scoring client */
-/* Objectif : construire un score simple de risque de depart client */
-
 /* Creation d'une base client simulee */
-
 data clients;
     call streaminit(42);
 
@@ -47,9 +43,6 @@ data clients;
     drop x u score;
 run;
 
-
-/* Apercu rapide de la base */
-
 proc print data=clients(obs=10);
     title "Apercu des premieres lignes";
 run;
@@ -62,8 +55,6 @@ proc means data=clients mean std min max;
     title "Statistiques descriptives";
 run;
 
-
-/* Repartition du churn */
 
 proc freq data=clients;
     tables churn;
