@@ -36,7 +36,7 @@ Le projet suit plusieurs étapes
 
  création d'une base client simulée 
  aperçu des premières observations 
- statistiques descriptives ;
+ statistiques descriptives 
  étude de la répartition de la variable `churn` 
  analyse du churn selon le type de contrat 
  comparaison des moyennes selon le churn 
@@ -47,8 +47,7 @@ Le projet suit plusieurs étapes
 
 ## Modèle utilisé
 
-Le modèle principal utilisé est une régression logistique.
-Ce modèle est adapté car la variable à expliquer est binaire : le client part ou ne part pas.
+Le modèle principal utilisé est une régression logistique. Ce modèle est adapté car la variable à expliquer est binaire : le client part ou ne part pas.
 Le modèle permet d'estimer la probabilité qu'un client quitte l'entreprise en fonction de ses caractéristiques.
 
 ## Classes de risque
